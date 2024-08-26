@@ -15,7 +15,7 @@ def googleMapsApiKey = localProperties.getProperty("MAPS_API_KEY")
 
 android {
     namespace = "com.herondev.google_map"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

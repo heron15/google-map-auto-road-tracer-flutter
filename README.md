@@ -1,10 +1,35 @@
-# google_map
+# Google Map Auto Road Tracer
 
-A new Flutter project.
+Google Map Auto Road Tracer is a Flutter application that leverages Google Maps and the Geolocator package to track and visualize a user's movement in real-time. As the user moves, the app automatically generates and updates a polyline on the map, effectively tracing the path or road taken by the user.
 
-## Getting Started
+# Key Features:
 
-This project is a starting point for a Flutter application.
+<ol>
+    <li>
+        <b>Real-Time Location Tracking:</b> Continuously tracks the user's current location using GPS and displays it on Google Maps.
+    </li>
+    <li>
+        <b>Dynamic Path Generation:</b> Automatically generates and updates a polyline on the map to represent the user's movement.
+    </li>
+    <li>
+        <b>Google Maps Integration:</b> Provides a rich map experience with markers and polylines using the Google Maps API.
+    </li>
+    <li>
+        <b>Accurate Positioning:</b> Utilizes the Geolocator package for high-accuracy location tracking, ensuring the path is precise.
+    </li>
+    <li>
+        Used GoRouter for manage route.
+    </li>
+</ol>
+
+This app is ideal for applications requiring real-time location tracking, such as fitness apps, travel logs, or delivery tracking systems.
+
+## Screenshots
+
+<div style="display:flex">
+    <img src="screenshots/s01.png" alt="Home Screen" width="150" height="300" style="margin-right: 30px;">
+    <img src="screenshots/s02.gif" alt="Home Screen" width="150" height="300" style="margin-right: 30px;">
+</div>
 
 A few resources to get you started if this is your first Flutter project:
 
