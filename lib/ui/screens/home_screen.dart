@@ -42,19 +42,21 @@ class _HomeScreenState extends State<HomeScreen> {
                   onTap: (LatLng latLng) {
                     //print(latLng);
                   },
-                  circles: <Circle>{
-                    Circle(
-                      circleId: const CircleId('my_position_circle'),
-                      center: LatLng(
-                        controller.myPosition!.latitude,
-                        controller.myPosition!.longitude,
-                      ),
-                      radius: 100,
-                      strokeWidth: 4,
-                      strokeColor: Colors.grey,
-                      fillColor: const Color(0xffcccccc),
-                    ),
-                  },
+                  circles: (controller.myPosition != null)
+                      ? <Circle>{
+                          Circle(
+                            circleId: const CircleId('my_position_circle'),
+                            center: LatLng(
+                              controller.myPosition!.latitude,
+                              controller.myPosition!.longitude,
+                            ),
+                            radius: 100,
+                            strokeWidth: 4,
+                            strokeColor: Colors.grey,
+                            fillColor: const Color(0xffcccccc),
+                          ),
+                        }
+                      : {},
                   polylines: <Polyline>{
                     Polyline(
                       polylineId: const PolylineId("user_polyline"),
