@@ -18,7 +18,7 @@ Google Map Auto Road Tracer is a Flutter application that leverages Google Maps 
         <b>Accurate Positioning:</b> Utilizes the Geolocator package for high-accuracy location tracking, ensuring the path is precise.
     </li>
     <li>
-        Used GoRouter for manage route.
+        <b>State Management with GetX:</b> Efficient and reactive state management is handled with GetX, ensuring smooth and scalable state transitions.
     </li>
 </ol>
 
