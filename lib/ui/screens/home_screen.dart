@@ -66,6 +66,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   markers: <Marker>{
                     Marker(
                       markerId: const MarkerId("sample-marker-id"),
+                      infoWindow: InfoWindow(
+                        title: "My current location",
+                        snippet:
+                            "${controller.currentPosition!.latitude}, ${controller.currentPosition!.longitude}",
+                      ),
                       position: LatLng(
                         controller.currentPosition!.latitude,
                         controller.currentPosition!.longitude,
