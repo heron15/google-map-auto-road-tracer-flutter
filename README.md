@@ -27,7 +27,7 @@ This app is ideal for applications requiring real-time location tracking, such a
 ## Screenshots
 
 <div style="display:flex">
-    <img src="screenshots/s01.png" alt="Home Screen" width="150" height="300" style="margin-right: 30px;">
+    <img src="screenshots/s.png" alt="Home Screen" width="150" height="300" style="margin-right: 30px;">
     <img src="screenshots/s02.gif" alt="Home Screen" width="150" height="300" style="margin-right: 30px;">
 </div>
 
